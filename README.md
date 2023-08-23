@@ -3,4 +3,5 @@
 - React  
 - Vite  
 - Tailwind  
+- Heroicons  
 - Tremor Components  
