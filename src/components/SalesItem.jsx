@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import {
-  BadgeDelta,
   Button,
   Card,
   DonutChart,
@@ -78,6 +77,16 @@ const SalesItem = () => {
           </List>
         </>
       )}
+      <Flex className="mt-6 pt-4 border-t">
+        <Button
+          size="xs"
+          variant="light"
+          icon={ArrowRightIcon}
+          iconPosition="right"
+        >
+          View more
+        </Button>
+      </Flex>
     </Card>
   );
 };
